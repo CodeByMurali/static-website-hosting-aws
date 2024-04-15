@@ -243,7 +243,7 @@ $(document).ready(function () {
         });
 
     $('#experience button').click(function () {
-        window.open('Roger_Nem.pdf', '_blank');
+        window.open('Murali_Rajendran.pdf', '_blank');
 
         _ipgeolocation.getGeolocation(handleResponse, "2c99f72b55cf4cbc973a738689d677e0");
         _ipgeolocation.enableSessionStorage(true);
@@ -440,18 +440,23 @@ $(document).ready(function () {
 
         var id = $(this).attr("class");
         if (id == 'linkedin') {
-            window.open('https://www.linkedin.com/in/rogertn/', '_blank');
+            window.open('https://www.linkedin.com/in/muralidharr/', '_blank');
         } else if (id == 'github') {
-            window.open('https://github.com/rnem', '_blank');
-        } else if (id == 'gitlab') {
-        } else if (id == 'youtube') {
-            window.open('https://www.youtube.com/@RogerNem', '_blank');
-        } else if (id == 'medium') {
-            window.open('https://medium.com/@rogernem', '_blank');
-        } else if (id == 'aws') {
-            window.open('https://community.aws/@rogertn', '_blank');
-        } else if (id == 'pdf') {
-            window.open('Roger_Nem.pdf', '_blank');
+            window.open('https://github.com/CodeByMurali', '_blank');
+        }
+        // else if (id == 'gitlab') {
+        // }
+        // else if (id == 'youtube') {
+        //     window.open('https://www.youtube.com/@RogerNem', '_blank');
+        // }
+        // else if (id == 'medium') {
+        //     window.open('https://medium.com/@rogernem', '_blank');
+        // }
+        // else if (id == 'aws') {
+        //     window.open('https://community.aws/@rogertn', '_blank');
+        // }
+        else if (id == 'pdf') {
+            window.open('Murali_Rajendran.pdf', '_blank');
         }
 
         return false;
