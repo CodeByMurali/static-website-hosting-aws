@@ -365,16 +365,16 @@ $(document).ready(function () {
             } else if (id == 'cert2') {
                 window.open('https://www.credly.com/badges/a9bcdf6a-0b4e-42ae-a0b3-3b49ba14c792/public_url', '_blank'); //AWS SA Associate
             } else if (id == 'cert3') {
-                window.open('https://www.coursera.org/account/accomplishments/certificate/HEWUNZH49K7U', '_blank'); // GCP 
+                window.open('https://www.credly.com/badges/c285523a-8a83-4c83-af94-e94c0b5908e2/public_url', '_blank'); // AWS Developer
 
             } else if (id == 'cert4') {
-                window.open('https://www.credly.com/badges/d626ea4e-def9-45f0-aa3a-0072512187d0/public_url', '_blank'); //AWS Solutions Architect Knowledge Badge
+                window.open('https://www.credly.com/badges/911b7f49-3569-432c-9d18-529e161f67de/public_url', '_blank'); //CKA
             } else if (id == 'cert5') {
-                window.open('https://www.credly.com/badges/af688f09-d20d-4a84-a485-2f1b64270b1d/public_url', '_blank'); //AWS EKS Knowledge Badge
+                window.open('https://www.credly.com/badges/c285523a-8a83-4c83-af94-e94c0b5908e2/public_url', '_blank'); //CKAD
             } else if (id == 'cert6') {
-                window.open('https://www.credly.com/badges/a89e5409-b200-4dc1-8cb0-aa3a8cae22e7/public_url', '_blank'); //AWS Serverless Technology Knowledge Badge
+                window.open('https://www.credly.com/badges/9958b461-53b1-455d-8704-7d511a3506b0/public_url', '_blank'); //Azure
             } else if (id == 'cert7') {
-                window.open('https://www.credly.com/badges/a6c4c19f-986b-4524-8130-0a58a7405de0/public_url', '_blank'); //AWS Compute Technology Knowledge Badge
+                window.open('https://www.credly.com/badges/99d4feae-63cc-429e-b9a8-241f0cf8f2b6/public_url', '_blank'); //Oracle architect
             } else if (id == 'cert8') {
                 window.open('https://www.credly.com/badges/b49af314-81f7-4e04-9135-4469c60e8f24/public_url', '_blank'); //AWS Networking Core Technology Knowledge Badge
             } else if (id == 'cert9') {
@@ -382,7 +382,7 @@ $(document).ready(function () {
             } else if (id == 'cert10') {
                 window.open('https://www.credly.com/badges/583328b0-7ba9-422c-8048-b6ac7918b48d/public_url', '_blank'); //AWS Cloud Essentials Technology Knowledge Badge
             } else if (id == 'cert11') {
-                window.open('https://www.credly.com/badges/d0e456a6-3fc7-4b6e-bb77-8ea8a69c5bcb/public_url', '_blank'); //AWS Data Migration Specialized Technology Knowledge Badge
+                window.open('https://www.credly.com/badges/c285523a-8a83-4c83-af94-e94c0b5908e2/public_url', '_blank'); //AWS Data Migration Specialized Technology Knowledge Badge
             } else if (id == 'cert12') {
                 window.open('https://www.credly.com/badges/d8fb599c-e63b-40e4-bd08-3d30737d778a/public_url', '_blank'); //AWS Data Protection and Disaster Recovery Specialized Technology Knowledge Badge
             } else if (id == 'cert13') {
@@ -402,12 +402,16 @@ $(document).ready(function () {
                 window.open('https://app.thecloudbootcamp.com/certificates/schd1gc7oz', '_blank'); // Intensive Cloud Computing
             } else if (id == 'cert20') {
                 window.open('http://www.zend.com/en/yellow-pages/ZEND019559', '_blank'); // ZEND PHP
-            } else if (id == 'cert21') {
-                window.open('https://www.udemy.com/certificate/UC-GFZNXDV5/', '_blank'); // Udemy UNIX and Linux
-            } else if (id == 'cert22') { // Networking Essentials Microsoft Azure
-            } else if (id == 'cert23') {
-                window.open('https://www.linkedin.com/learning/certificates/cf9080d7255eb32e42bc9db88ce7fb6679fd260603e5184f5cb350ac9836f1cd?u=2111916', '_blank'); // DevOps With AWS - LinkedIn
-            } else if (id == 'cert24') { // CS50's Programming-with-Python HarvardX
+            }
+            // else if (id == 'cert21') {
+            //     window.open('https://www.udemy.com/certificate/UC-GFZNXDV5/', '_blank'); // Udemy UNIX and Linux
+            // } 
+            else if (id == 'cert22') { // Networking Essentials Microsoft Azure
+            }
+            // else if (id == 'cert23') {
+            //     window.open('https://www.linkedin.com/learning/certificates/cf9080d7255eb32e42bc9db88ce7fb6679fd260603e5184f5cb350ac9836f1cd?u=2111916', '_blank'); // DevOps With AWS - LinkedIn
+            // } 
+            else if (id == 'cert24') { // CS50's Programming-with-Python HarvardX
             }
 
             return false;
